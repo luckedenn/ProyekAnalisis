@@ -2,11 +2,8 @@
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
-pip install -r requirements.txt
+pip install streamlit pandas matplotlib seaborn
+
 ```
 
 ## Run steamlit app
