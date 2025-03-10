@@ -6,7 +6,8 @@ import seaborn as sns
 # Load dataset yang sudah dibersihkan
 @st.cache_data
 def load_data():
-    return pd.read_csv("air_quality_cleaned.csv")  # Ganti dengan nama dataset kamu
+    url = "https://drive.google.com/uc?id=1KEHPXqk70Dm3LCRoUvGIJ4HzxZEueiw2" 
+    return pd.read_csv(url)
 
 df = load_data()
 
